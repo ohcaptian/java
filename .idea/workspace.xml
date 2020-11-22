@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b50b5ca-84ae-4dda-832c-c74710ca3cd0" name="Default Changelist" comment="" />
+    <list default="true" id="5b50b5ca-84ae-4dda-832c-c74710ca3cd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection/reflection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +22,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jPIYrDt3NfP7Uk5zdwqERnxh4f" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdbc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15568863" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -48,13 +60,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DaoImpTest.Select">
-    <configuration name="Select" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ying.Select" />
-      <module name="datastruct" />
+  <component name="RunManager" selected="Application.learn (1)">
+    <configuration name="ConstructObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.ConstructObject" />
+      <module name="reflection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ying.*" />
+          <option name="PATTERN" value="reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="learn (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.learn" />
+      <module name="exception" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="learn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflection.learn" />
+      <module name="reflection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,61 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaoImpTest.addStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.daoImp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao.daoImp" />
-      <option name="MAIN_CLASS_NAME" value="dao.daoImp.DaoImpTest" />
-      <option name="METHOD_NAME" value="addStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DaoImpTest.getStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.daoImp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao.daoImp" />
-      <option name="MAIN_CLASS_NAME" value="dao.daoImp.DaoImpTest" />
-      <option name="METHOD_NAME" value="getStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DaoImpTest.getTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.daoImp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dao.daoImp" />
-      <option name="MAIN_CLASS_NAME" value="dao.daoImp.DaoImpTest" />
-      <option name="METHOD_NAME" value="getTotal" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.learn (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ConstructObject" />
+        <item itemvalue="Application.learn" />
         <item itemvalue="JUnit.DaoImpTest.Select" />
-        <item itemvalue="JUnit.DaoImpTest.addStudent" />
-        <item itemvalue="JUnit.DaoImpTest.getStudent" />
-        <item itemvalue="JUnit.DaoImpTest.getTotal" />
-        <item itemvalue="Application.Select" />
       </list>
     </recent_temporary>
   </component>
@@ -154,10 +157,25 @@
       <workItem from="1605840086954" duration="2083000" />
       <workItem from="1605876843501" duration="1756000" />
       <workItem from="1605942065815" duration="5743000" />
+      <workItem from="1606010119962" duration="1706000" />
+      <workItem from="1606042095377" duration="3709000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

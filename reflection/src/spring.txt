@@ -1,0 +1,2 @@
+class=test.Service1
+method=doService1

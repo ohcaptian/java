@@ -13,10 +13,18 @@
     <title>Document</title>
 </head>
 <body>
+
+
+
 <div class="showing">
+<!--    字符串拼接-->
         <p th:text="${name}"></p>
         <p th:text="'Hello！ ' + ${name} + '!'" ></p>
         <p th:text="|Hello! ${name}!|" ></p>
+</div>
+<div class="showing">
+    <div th:replace="include::footer1" ></div>
+    <div th:replace="include::footer2(2015,2018)" ></div>
 </div>
 </body>
 </html>

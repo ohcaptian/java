@@ -9,6 +9,21 @@
 </head>
 <body>
 <div>
+<!--    不只是布尔值的 true 和 false, th:if 表达式返回其他值时也会被认为是 true 或 false，规则如下:-->
+<!--    boolean 类型并且值是 true, 返回 true-->
+<!--    数值类型并且值不是 0, 返回 true-->
+<!--    字符类型(Char)并且值不是 0, 返回 true-->
+<!--    String 类型并且值不是 "false", "off", "no", 返回 true-->
+<!--    不是 boolean, 数值, 字符, String 的其他类型, 返回 true-->
+<!--    值是 null, 返回 false-->
+    <h2>thymeleaf表达式</h2>
+    <p th:text="@{testBoolean}"></p>
+    <p th:if="${testBoolean}">如果testBoolean 是 true ，本句话就会显示</p>
+    <p th:if="${not testBoolean}" >如果testBoolean 是 flase ，本句话就会显示</p>
+    <p th:unless="${testBoolean}">如果testBoolean 是 flase ，本句话就会显示</p>
+    <p th:text="${testBoolean}?'当testBoolean为真的时候，显示本句话，这是用三相表达式做的':'否则显示本句'" ></p>
+</div>
+<div>
     <p>显示 转义和非转义的 html 文本</p>
     <p th:text="${htmlContent}">
     <p th:utext="${htmlContent}" ></p>
@@ -19,6 +34,49 @@
         <p th:text="*{name}"></p>
     </div>
     </p>
+</div>
+
+
+<div>
+    <h2>遍历</h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>产品名称</th>
+            <th>价格</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="p: ${products}">
+            <td th:text="${p.id}"></td>
+            <td th:text="${p.name}"></td>
+            <td th:text="${p.price}"></td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="showing">
+        <h2>带状态遍历</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>index</th>
+                <th>id</th>
+                <th>产品名称</th>
+                <th>价格</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:class="${status.even}?'even':'odd'" th:each="p,status: ${products}">
+                <td  th:text="${status.count}"></td>
+                <td th:text="${p.id}"></td>
+                <td th:text="${p.name}"></td>
+                <td th:text="${p.price}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 </body>
 </html>

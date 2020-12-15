@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/security/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,12 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="security" />
         <module name="jdbc" />
+        <module name="shiro" />
+        <module name="mybatis-plus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jdbc" target="8" />
+      <module name="mybatis-plus" target="1.8" />
+      <module name="security" target="1.8" />
+      <module name="shiro" target="1.8" />
       <module name="ying" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mybatis-plus" options="-parameters" />
+      <module name="security" options="-parameters" />
+      <module name="shiro" options="-parameters" />
+    </option>
   </component>
 </project>

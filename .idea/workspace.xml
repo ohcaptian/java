@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b50b5ca-84ae-4dda-832c-c74710ca3cd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -23,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -59,6 +58,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../emr" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15568863" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -79,7 +79,31 @@
       <recent name="dao.daoImp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyMetaObjectHandlerTest.page">
+  <component name="RunManager" selected="Application.ListStream">
+    <configuration name="ListStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yin.ListStream" />
+      <module name="list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyMetaObjectHandlerTest.page" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-plus" />
       <extension name="coverage">
@@ -123,22 +147,6 @@
       <option name="PACKAGE_NAME" value="mybatisplus" />
       <option name="MAIN_CLASS_NAME" value="mybatisplus.MybatisPlusApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImplTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-plus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mybatisplus.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mybatisplus.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="mybatisplus.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListStream" />
         <item itemvalue="JUnit.MyMetaObjectHandlerTest.page" />
         <item itemvalue="JUnit.MyMetaObjectHandlerTest.testAutoFill" />
         <item itemvalue="JUnit.UserServiceImplTest.test" />
         <item itemvalue="JUnit.MybatisPlusApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.UserServiceImplTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +236,19 @@
       <workItem from="1607866735953" duration="321000" />
       <workItem from="1607998565940" duration="6916000" />
       <workItem from="1608010375283" duration="4803000" />
+      <workItem from="1608015379018" duration="947000" />
+      <workItem from="1608088991752" duration="190000" />
+      <workItem from="1608202322673" duration="65000" />
+      <workItem from="1608202448061" duration="1351000" />
     </task>
+    <task id="LOCAL-00001" summary="java相关">
+      <created>1608015489532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608015489532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +265,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="java相关" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

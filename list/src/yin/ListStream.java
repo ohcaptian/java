@@ -22,6 +22,12 @@ public class ListStream {
         list.add(new Student("测试", 1,"男", 18));
         list.add(new Student("开发", 1,"男", 20));
         list.add(new Student("运维",0, "女", 19));
+        //list.add(new Student("DBA", 0,"女", 22));
+        list.add(new Student("运营", 0,"男", 24));
+        list.add(new Student("产品", 1,"女", 21));
+        list.add(new Student("经理", 0,"女", 25));
+        list.add(new Student("产品", 1,"女", 21));
+        //list.add(new Student("运维",0, "女", 19));
         list.add(new Student("DBA", 0,"女", 22));
         list.add(new Student("运营", 0,"男", 24));
         list.add(new Student("产品", 1,"女", 21));

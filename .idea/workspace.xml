@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b50b5ca-84ae-4dda-832c-c74710ca3cd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -198,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListStream" />
-        <item itemvalue="JUnit.MyMetaObjectHandlerTest.page" />
-        <item itemvalue="JUnit.MyMetaObjectHandlerTest.testAutoFill" />
         <item itemvalue="JUnit.UserServiceImplTest.test" />
+        <item itemvalue="JUnit.MyMetaObjectHandlerTest.testAutoFill" />
+        <item itemvalue="JUnit.MyMetaObjectHandlerTest.page" />
         <item itemvalue="JUnit.MybatisPlusApplicationTests.contextLoads" />
+        <item itemvalue="Application.ListStream" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +244,8 @@
       <workItem from="1608088991752" duration="190000" />
       <workItem from="1608202322673" duration="65000" />
       <workItem from="1608202448061" duration="1351000" />
+      <workItem from="1608253764785" duration="52000" />
+      <workItem from="1608281188747" duration="1388000" />
     </task>
     <task id="LOCAL-00001" summary="java相关">
       <created>1608015489532</created>

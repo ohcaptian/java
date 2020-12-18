@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b50b5ca-84ae-4dda-832c-c74710ca3cd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5b50b5ca-84ae-4dda-832c-c74710ca3cd0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -274,7 +272,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java相关" />
-    <option name="LAST_COMMIT_MESSAGE" value="java相关" />
+    <MESSAGE value="学习git的相关操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="学习git的相关操作" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

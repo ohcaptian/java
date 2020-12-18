@@ -33,7 +33,7 @@ public class ListStream {
         list.add(new Student("产品", 1,"女", 21));
         List<Student> find1 = list.stream().filter(Student -> Student.getSex().equals("男")).collect(toList());
         Map<String, List<Student>> collect = list.stream().collect(Collectors.groupingBy(Student::getSex));
-        System.out.println(collect);
+        System.out.println(coll斤斤计较ect);
         collect.values();
     }
     /**

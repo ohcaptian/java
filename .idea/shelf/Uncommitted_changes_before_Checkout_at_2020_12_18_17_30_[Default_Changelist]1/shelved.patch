@@ -1,0 +1,18 @@
+Index: list/src/yin/ListStream.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package yin;/**\r\n * @author 17694\r\n * @date 2020/12/17\r\n **/\r\n\r\nimport pojo.Student;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\nimport java.util.Map;\r\nimport java.util.stream.Collectors;\r\n\r\nimport static java.util.stream.Collectors.toList;\r\n\r\n/**\r\n * @ClassName : ListStream \r\n * @Description : list.stream学习  \r\n */\r\npublic class ListStream {\r\n    public static void main(String[] args) {\r\n        List<Student> list = new ArrayList();\r\n        list.add(new Student(\"测试\", 1,\"男\", 18));\r\n        list.add(new Student(\"开发\", 1,\"男\", 20));\r\n        list.add(new Student(\"运维\",0, \"女\", 19));\r\n        //list.add(new Student(\"DBA\", 0,\"女\", 22));\r\n        list.add(new Student(\"运营\", 0,\"男\", 24));\r\n        list.add(new Student(\"产品\", 1,\"女\", 21));\r\n        list.add(new Student(\"经理\", 0,\"女\", 25));\r\n        list.add(new Student(\"产品\", 1,\"女\", 21));\r\n        //list.add(new Student(\"运维\",0, \"女\", 19));\r\n        list.add(new Student(\"产品\", 1,\"女\", 21));\r\n        list.add(new Student(\"经理\", 0,\"女\", 25));\r\n        list.add(new Student(\"产品\", 1,\"女\", 21));\r\n        List<Student> find1 = list.stream().filter(Student -> Student.getSex().equals(\"男\")).collect(toList());\r\n        Map<String, List<Student>> collect = list.stream().collect(Collectors.groupingBy(Student::getSex));\r\n        System.out.println(collect);\r\n        collect.values();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/list/src/yin/ListStream.java b/list/src/yin/ListStream.java
+--- a/list/src/yin/ListStream.java	
++++ b/list/src/yin/ListStream.java	
+@@ -36,4 +36,7 @@
+         System.out.println(collect);
+         collect.values();
+     }
++    /*
++    dfasdghqwuiosdhoi
++     */
+ }

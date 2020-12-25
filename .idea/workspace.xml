@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b50b5ca-84ae-4dda-832c-c74710ca3cd0" name="Default Changelist" comment="添加了新的版本功能">
+    <list default="true" id="5b50b5ca-84ae-4dda-832c-c74710ca3cd0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git/src/c.txt" beforeDir="false" afterPath="$PROJECT_DIR$/git/src/c.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -198,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListStream" />
-        <item itemvalue="JUnit.MyMetaObjectHandlerTest.page" />
-        <item itemvalue="JUnit.MyMetaObjectHandlerTest.testAutoFill" />
         <item itemvalue="JUnit.UserServiceImplTest.test" />
+        <item itemvalue="JUnit.MyMetaObjectHandlerTest.testAutoFill" />
+        <item itemvalue="JUnit.MyMetaObjectHandlerTest.page" />
         <item itemvalue="JUnit.MybatisPlusApplicationTests.contextLoads" />
+        <item itemvalue="Application.ListStream" />
       </list>
     </recent_temporary>
   </component>
@@ -248,14 +254,7 @@
       <option name="project" value="LOCAL" />
       <updated>1608015489532</updated>
     </task>
-    <task id="LOCAL-00002" summary="给main添加了新的方法">
-      <created>1608875839674</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1608875839674</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,8 +286,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java相关" />
-    <MESSAGE value="给main添加了新的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="给main添加了新的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="java相关" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <h1 v-for="i in items">{{i}}</h1>
+    {{message}}
+    <yin></yin>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    var vm=new Vue({
+        el:"#app",
+        data:{
+            message:"hello",
+            items: ["yin","yue","feng"]
+        }
+    });
+    Vue.component("yin",{
+        template: '<h1>hhh</h1>'
+    })
+</script>
+</body>
+</html>

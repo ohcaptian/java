@@ -9,10 +9,14 @@
 <div id="app">
     <h1 v-for="i in items">{{i}}</h1>
     {{message}}
-    <yin></yin>
+    <yin v-for="i in items" v-bind:yue="i"></yin>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script>
+    Vue.component("yin",{
+        props: ['yue'],
+        template: '<h1>{{yue}}</h1>'
+    })
     var vm=new Vue({
         el:"#app",
         data:{
@@ -20,9 +24,7 @@
             items: ["yin","yue","feng"]
         }
     });
-    Vue.component("yin",{
-        template: '<h1>hhh</h1>'
-    })
+
 </script>
 </body>
 </html>

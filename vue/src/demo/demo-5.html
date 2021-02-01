@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="vue">
+    <h1>{{info.name}}</h1>
+    <h1>{{info.links[0].name}}</h1>
+    {{currentTime}}
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    var vm = new Vue({
+        el: "#vue",
+        data(){
+            return{
+                info:{
+                    name:null,
+                    url:null,
+                    links:[{name:null,url:null}]
+                }
+            }
+        },
+        mounted(){
+            axios.get('../data.json').then(response=>(this.info=response.data))
+        },
+        computed:{
+            currentTime: function () {
+                // this.message="hhh"
+               return Date.now();
+            }
+        }
+    });
+
+</script>
+</body>
+</html>

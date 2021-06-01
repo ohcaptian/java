@@ -26,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="encrypt" options="-parameters" />
       <module name="jpa" options="-parameters" />
       <module name="mybatis-plus" options="-parameters" />
       <module name="security" options="-parameters" />

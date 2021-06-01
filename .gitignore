@@ -8,4 +8,4 @@ jdk1.8.0_291
 **/META-INF
 **/.mvn
 .idea
-springMvc
+springMvc/web/WEB-INF/lib

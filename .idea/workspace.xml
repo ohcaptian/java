@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b50b5ca-84ae-4dda-832c-c74710ca3cd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/encrypt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encrypt/src/main/java/com/yin/encrypt/EncryptApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/encrypt/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/src/main/java/org/example/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/content/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/lib/javax.annotation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/lib/javax.ejb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/lib/javax.jms.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/lib/javax.persistence.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/lib/javax.resource.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/lib/javax.servlet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/lib/javax.transaction.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/springConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/WEB-INF/springmvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMvc/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-samples" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-samples" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMvc/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,6 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EncryptApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="encrypt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yin.encrypt.EncryptApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="jpa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yin.jpa.JpaApplication" />
@@ -258,6 +244,7 @@
       <item itemvalue="Spring Boot.SecurityApplication" />
       <item itemvalue="Spring Boot.ShiroApplication" />
       <item itemvalue="Spring Boot.ShiroApplication (1)" />
+      <item itemvalue="Spring Boot.EncryptApplication" />
     </list>
     <recent_temporary>
       <list>

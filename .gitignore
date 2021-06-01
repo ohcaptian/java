@@ -1,1 +1,11 @@
-/list/.idea/
+**/.idea
+**/target
+**/*.iml
+!**/pom.xml
+**/.gitignore
+out
+jdk1.8.0_291
+**/META-INF
+**/.mvn
+.idea
+springMvc

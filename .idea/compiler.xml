@@ -11,9 +11,11 @@
         <module name="jpa" />
         <module name="shiro" />
         <module name="mybatis-plus" />
+        <module name="encrypt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="encrypt" target="1.8" />
       <module name="jdbc" target="8" />
       <module name="jpa" target="1.8" />
       <module name="mybatis-plus" target="1.8" />
